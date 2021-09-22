@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <vector
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:aapt="http://schemas.android.com/aapt"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:width="113dp"
+        android:height="40dp"
+        android:viewportWidth="113"
+        android:viewportHeight="40"
+        >
+
+        <group>
+
+            <clip-path
+                android:pathData="M8 0H105C109.418 0 113 3.58172 113 8V32C113 36.4183 109.418 40 105 40H8C3.58172 40 0 36.4183 0 32V8C0 3.58172 3.58172 0 8 0Z"
+                tools:ignore="VectorRaster" />
+
+            <group
+                android:translateX="0"
+                android:translateY="-3.49"
+                android:pivotX="56.5"
+                android:pivotY="20"
+                android:scaleX="2"
+                android:scaleY="15.961"
+                >
+
+                <path
+                    android:pathData="M0 0V40H113V0"
+                    >
+
+                    <aapt:attr name="android:fillColor">
+
+                        <gradient
+                            android:type="linear"
+                            android:startX="28.25"
+                            android:startY="20"
+                            android:endX="84.75"
+                            android:endY="20"
+                            >
+
+                            <item
+                                android:color="#7A14FB"
+                                android:offset="0"
+                                />
+
+                            <item
+                                android:color="#330868"
+                                android:offset="1"
+                                />
+
+                        </gradient>
+
+                    </aapt:attr>
+
+                </path>
+
+            </group>
+
+            <path
+                android:pathData="M8 0H105C109.418 0 113 3.58172 113 8V32C113 36.4183 109.418 40 105 40H8C3.58172 40 0 36.4183 0 32V8C0 3.58172 3.58172 0 8 0Z"
+                android:strokeWidth="2"
+                android:strokeColor="#7A14FB"
+                />
+
+        </group>
+</vector>

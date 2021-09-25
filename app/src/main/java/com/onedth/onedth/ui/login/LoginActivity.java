@@ -25,18 +25,18 @@ import android.widget.Toast;
 import com.onedth.onedth.R;
 import com.onedth.onedth.ui.login.LoginViewModel;
 import com.onedth.onedth.ui.login.LoginViewModelFactory;
-import com.onedth.onedth.databinding.ActivityLoginBinding;
+import com.onedth.onedth.databinding.ActivitySignInBinding;
 
 public class LoginActivity extends AppCompatActivity {
 
     private LoginViewModel loginViewModel;
-    private ActivityLoginBinding binding;
+    private ActivitySignInBinding binding;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        binding = ActivityLoginBinding.inflate(getLayoutInflater());
+        binding = ActivitySignInBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
 
         loginViewModel = new ViewModelProvider(this, new LoginViewModelFactory())

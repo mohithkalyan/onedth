@@ -6,6 +6,11 @@
         <entry key="..\:/onedth/app/src/main/res/layout/activity_main.xml" value="0.2807971014492754" />
         <entry key="..\:/onedth/app/src/main/res/layout/activity_recharge_type.xml" value="0.2807971014492754" />
         <entry key="..\:/onedth/app/src/main/res/layout/activity_sign_in.xml" value="0.3333333333333333" />
+        <entry key="..\:/onedth/app/src/main/res/layout/dth_home.xml" value="0.2807971014492754" />
+        <entry key="..\:/onedth/app/src/main/res/layout/home_page.xml" value="0.22" />
+        <entry key="..\:/onedth/app/src/main/res/layout/mobile_home.xml" value="0.2807971014492754" />
+        <entry key="..\:/onedth/app/src/main/res/layout/retailer_home.xml" value="0.3333333333333333" />
+        <entry key="..\:/onedth/app/src/main/res/layout/selfcare_retailer.xml" value="0.2807971014492754" />
       </map>
     </option>
   </component>

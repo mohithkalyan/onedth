@@ -7,20 +7,18 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-import com.onedth.onedth.ui.login.LoginActivity;
-
-public class MainActivity extends AppCompatActivity {
+public class homepage extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.activity_homepage);
 
-        Button button = (Button) findViewById(R.id.button);
+        Button button = (Button) findViewById(R.id.retailer_panel);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent i = new Intent(MainActivity.this, homepage.class);
+                Intent i = new Intent(homepage.this,  retailerhome.class);
                 startActivity(i);
             }
 

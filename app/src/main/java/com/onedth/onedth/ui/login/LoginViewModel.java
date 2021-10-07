@@ -4,6 +4,7 @@ import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
+import android.content.Intent;
 import android.util.Patterns;
 
 import com.onedth.onedth.data.LoginRepository;
@@ -36,9 +37,14 @@ public class LoginViewModel extends ViewModel {
         if (result instanceof Result.Success) {
             LoggedInUser data = ((Result.Success<LoggedInUser>) result).getData();
             loginResult.setValue(new LoginResult(new LoggedInUserView(data.getDisplayName())));
+            //Intent intent = new Intent(this, ../homepage.class);
+            //startActivity(intent);
         } else {
             loginResult.setValue(new LoginResult(R.string.login_failed));
         }
+    }
+
+    private void startActivity(Intent intent) {
     }
 
     public void loginDataChanged(String username, String password) {

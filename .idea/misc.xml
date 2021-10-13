@@ -3,18 +3,30 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/onedth/app/src/main/res/layout/about_us.xml" value="0.2658514492753623" />
         <entry key="..\:/onedth/app/src/main/res/layout/activity_main.xml" value="0.2807971014492754" />
         <entry key="..\:/onedth/app/src/main/res/layout/activity_recharge_type.xml" value="0.2807971014492754" />
+        <entry key="..\:/onedth/app/src/main/res/layout/activity_retailerhome.xml" value="0.2658514492753623" />
+        <entry key="..\:/onedth/app/src/main/res/layout/activity_selfcare.xml" value="0.2658514492753623" />
         <entry key="..\:/onedth/app/src/main/res/layout/activity_sign_in.xml" value="0.3333333333333333" />
         <entry key="..\:/onedth/app/src/main/res/layout/complaints_retailer.xml" value="0.2708333333333333" />
+        <entry key="..\:/onedth/app/src/main/res/layout/credit_req_distributor.xml" value="0.22" />
+        <entry key="..\:/onedth/app/src/main/res/layout/credit_request_distributor.xml" value="0.9654605263157895" />
+        <entry key="..\:/onedth/app/src/main/res/layout/credit_transfer_distributor.xml" value="0.2658514492753623" />
+        <entry key="..\:/onedth/app/src/main/res/layout/distributor_home.xml" value="0.3333333333333333" />
+        <entry key="..\:/onedth/app/src/main/res/layout/dth_distributor.xml" value="0.2658514492753623" />
         <entry key="..\:/onedth/app/src/main/res/layout/dth_home.xml" value="0.2807971014492754" />
         <entry key="..\:/onedth/app/src/main/res/layout/feedback_retailer.xml" value="0.2708333333333333" />
-        <entry key="..\:/onedth/app/src/main/res/layout/heavy_refresh_retailer.xml" value="0.2708333333333333" />
+        <entry key="..\:/onedth/app/src/main/res/layout/heavy_refresh_retailer.xml" value="0.3333333333333333" />
         <entry key="..\:/onedth/app/src/main/res/layout/home_page.xml" value="0.22" />
+        <entry key="..\:/onedth/app/src/main/res/layout/mobile_distributor.xml" value="0.2658514492753623" />
         <entry key="..\:/onedth/app/src/main/res/layout/mobile_home.xml" value="0.2807971014492754" />
         <entry key="..\:/onedth/app/src/main/res/layout/req_bal_retailer.xml" value="0.22" />
         <entry key="..\:/onedth/app/src/main/res/layout/retailer_home.xml" value="0.4466666666666667" />
+        <entry key="..\:/onedth/app/src/main/res/layout/selfcare_distributor.xml" value="0.3333333333333333" />
         <entry key="..\:/onedth/app/src/main/res/layout/selfcare_retailer.xml" value="0.2807971014492754" />
+        <entry key="..\:/onedth/app/src/main/res/layout/server_settings.xml" value="0.2658514492753623" />
+        <entry key="..\:/onedth/app/src/main/res/layout/settings_page.xml" value="0.3333333333333333" />
         <entry key="..\:/onedth/app/src/main/res/layout/wrong_recharge_retailer.xml" value="0.3333333333333333" />
       </map>
     </option>

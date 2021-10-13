@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mobile_recharge_bg">
+
+    <EditText
+        android:id="@+id/editText13"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="340dp"
+        android:background="@drawable/large_block"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@drawable/contact_button"
+        app:layout_constraintBottom_toBottomOf="@+id/editText13"
+        app:layout_constraintEnd_toEndOf="@+id/editText13"
+        app:layout_constraintTop_toTopOf="@+id/editText13"
+        android:layout_marginRight="10dp"/>
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:letterSpacing="0.05"
+        android:paddingBottom="10dp"
+        android:text="Mobile Number"
+        android:textColor="@color/purple_500"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/editText13"
+        app:layout_constraintStart_toStartOf="@+id/editText13" />
+
+
+    <EditText
+        android:id="@+id/editText14"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/large_block"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText13" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:letterSpacing="0.05"
+        android:paddingBottom="10dp"
+        android:text="Amount"
+        android:textColor="@color/purple_500"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/editText14"
+        app:layout_constraintStart_toStartOf="@+id/editText14" />
+
+    <EditText
+        android:id="@+id/editText15"
+        android:layout_width="320dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/large_block"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText14" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:letterSpacing="0.05"
+        android:paddingBottom="10dp"
+        android:text="Confirm Amount"
+        android:textColor="@color/purple_500"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/editText15"
+        app:layout_constraintStart_toStartOf="@+id/editText15" />
+
+    <Button
+        android:layout_width="113dp"
+        android:layout_height="40dp"
+        android:background="@drawable/mobile_plan_button"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText15"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="60dp"/>
+
+    <Button
+        android:layout_width="113dp"
+        android:layout_height="40dp"
+        android:background="@drawable/r_offer_button"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText15"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="60dp"/>
+
+    <Button
+        android:layout_width="177dp"
+        android:layout_height="54dp"
+        android:background="@drawable/recharge_button"
+        android:layout_marginTop="40dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText15" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

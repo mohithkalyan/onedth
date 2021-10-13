@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/credit_request_bg">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:letterSpacing="0.05"
+        android:paddingBottom="10dp"
+        android:text="Request Balance"
+        android:textColor="@color/purple_500"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/editText8"
+        app:layout_constraintStart_toStartOf="@+id/editText8" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:letterSpacing="0.05"
+        android:paddingBottom="10dp"
+        android:text="Amount Deposited"
+        android:textColor="@color/purple_500"
+        android:textSize="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/editText9"
+        app:layout_constraintStart_toStartOf="@+id/editText9" />
+
+
+    <EditText
+        android:id="@+id/editText8"
+        android:layout_width="310dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="300dp"
+        android:background="@drawable/large_block"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editText9"
+        android:layout_width="310dp"
+        android:layout_height="49dp"
+        android:layout_marginBottom="300dp"
+        android:background="@drawable/large_block"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText8" />
+
+    <Button
+        android:layout_width="113dp"
+        android:layout_height="40dp"
+        android:background="@drawable/submit_button"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText9"
+        android:layout_marginBottom="150dp"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
